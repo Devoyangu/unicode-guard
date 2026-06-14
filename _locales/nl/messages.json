@@ -1,0 +1,104 @@
+{
+  "extensionName": {
+    "message": "Unicode Guard"
+  },
+  "extensionDescription": {
+    "message": "Detecteert verdachte Unicode in links en tekst: homoglyphen, invisibles en bidi-controls."
+  },
+  "popupTitle": {
+    "message": "Unicode Guard"
+  },
+  "popupAnalyzing": {
+    "message": "Tabblad analyseren…"
+  },
+  "popupNotAnalyzable": {
+    "message": "Dit tabblad is geen analyseerbare http/https-pagina."
+  },
+  "popupDomainOk": {
+    "message": "Het huidige domein vertoont geen verdachte Unicode-signalen:"
+  },
+  "popupSuspiciousDomain": {
+    "message": "Verdacht domein:"
+  },
+  "popupUnicodeForm": {
+    "message": "Unicode-vorm:"
+  },
+  "optEnabled": {
+    "message": "Extensie inschakelen"
+  },
+  "optHighlightPageText": {
+    "message": "Verdachte tekens in pagina’s markeren"
+  },
+  "optHighlightLinks": {
+    "message": "Links markeren waarvan het domein verdacht is"
+  },
+  "optHighlightInvisible": {
+    "message": "Onzichtbare/bidi-tekens als zichtbare labels tonen"
+  },
+  "optBlockSuspiciousDomains": {
+    "message": "Navigatie naar verdachte domeinen blokkeren"
+  },
+  "optStrictMode": {
+    "message": "Strikte modus: Unicode markeren die niet in het veilige profiel staat"
+  },
+  "optMarkFormatControlsEverywhere": {
+    "message": "Zachte onzichtbare controles ook geïsoleerd buiten domeinen/e-mails markeren"
+  },
+  "optShowBadges": {
+    "message": "Een “Unicode”-badge toevoegen aan verdachte links"
+  },
+  "reloadButton": {
+    "message": "Tabblad opnieuw laden om schoon toe te passen"
+  },
+  "allowedChars": {
+    "message": "De normale modus is gericht op Latijnse alfabetten: Latijnse letters en veelgebruikte Europese accenten zijn toegestaan; Cyrillische/Griekse/Armeense homoglyphen, riskante Latijnse lookalikes in domeinen, onzichtbare tekens en domeinen met gemengde schriften worden gemarkeerd. Schakel Grieks alleen uit als je regelmatig legitieme Griekse tekst of domeinen gebruikt."
+  },
+  "warningTitle": {
+    "message": "Domein geblokkeerd door Unicode Guard"
+  },
+  "warningIntro": {
+    "message": "Deze pagina gebruikt een domein met verdachte Unicode-tekens, homoglyphs, onzichtbare tekens of gemengde schriften."
+  },
+  "warningRequestedUrl": {
+    "message": "Aangevraagde URL"
+  },
+  "warningDetectedDomain": {
+    "message": "Gedetecteerd domein"
+  },
+  "warningDecodedDomain": {
+    "message": "Gedecodeerd Unicode-domein"
+  },
+  "warningReasons": {
+    "message": "Redenen"
+  },
+  "warningGenericReason": {
+    "message": "Domein gemarkeerd als verdacht."
+  },
+  "warningBack": {
+    "message": "Terug"
+  },
+  "warningContinue": {
+    "message": "30 minuten doorgaan op eigen risico"
+  },
+  "linkBadge": {
+    "message": "Unicode"
+  },
+  "contentLinkWarning": {
+    "message": "Unicode Guard: link met verdacht domein"
+  },
+  "contentUrl": {
+    "message": "URL"
+  },
+  "contentDomain": {
+    "message": "Domein"
+  },
+  "contentUnicodeDomain": {
+    "message": "Unicode-domein"
+  },
+  "contentCharPrefix": {
+    "message": "Unicode Guard"
+  },
+  "optIncludeGreekCharacters": {
+    "message": "Griekse tekens meenemen in detectie"
+  }
+}

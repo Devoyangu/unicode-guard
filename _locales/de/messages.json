@@ -1,0 +1,104 @@
+{
+  "extensionName": {
+    "message": "Unicode Guard"
+  },
+  "extensionDescription": {
+    "message": "Erkennt verdächtiges Unicode in Links und Text: Homoglyphen, Unsichtbares und Bidi-Steuerung."
+  },
+  "popupTitle": {
+    "message": "Unicode Guard"
+  },
+  "popupAnalyzing": {
+    "message": "Tab wird analysiert…"
+  },
+  "popupNotAnalyzable": {
+    "message": "Dieser Tab ist keine analysierbare http/https-Seite."
+  },
+  "popupDomainOk": {
+    "message": "Die aktuelle Domain zeigt keine verdächtigen Unicode-Signale:"
+  },
+  "popupSuspiciousDomain": {
+    "message": "Verdächtige Domain:"
+  },
+  "popupUnicodeForm": {
+    "message": "Unicode-Form:"
+  },
+  "optEnabled": {
+    "message": "Erweiterung aktivieren"
+  },
+  "optHighlightPageText": {
+    "message": "Verdächtige Zeichen auf Seiten hervorheben"
+  },
+  "optHighlightLinks": {
+    "message": "Links mit verdächtiger Domain markieren"
+  },
+  "optHighlightInvisible": {
+    "message": "Unsichtbare/Bidi-Zeichen als sichtbare Marker anzeigen"
+  },
+  "optBlockSuspiciousDomains": {
+    "message": "Navigation zu verdächtigen Domains blockieren"
+  },
+  "optStrictMode": {
+    "message": "Strenger Modus: Unicode markieren, der nicht im sicheren Profil enthalten ist"
+  },
+  "optMarkFormatControlsEverywhere": {
+    "message": "Weiche unsichtbare Steuerzeichen auch isoliert außerhalb von Domains/E-Mails markieren"
+  },
+  "optShowBadges": {
+    "message": "„Unicode“-Badge zu verdächtigen Links hinzufügen"
+  },
+  "reloadButton": {
+    "message": "Tab neu laden, um sauber anzuwenden"
+  },
+  "allowedChars": {
+    "message": "Der Normalmodus ist auf lateinische Schriften ausgerichtet: Lateinische Buchstaben und häufige europäische Akzente sind erlaubt; kyrillische/griechische/armenische Homoglyphen, riskante lateinische Lookalikes in Domains, unsichtbare Steuerzeichen und Domains mit gemischten Schriften werden markiert. Deaktivieren Sie Griechisch nur, wenn Sie regelmäßig legitimen griechischen Text oder griechische Domains verwenden."
+  },
+  "warningTitle": {
+    "message": "Domain von Unicode Guard blockiert"
+  },
+  "warningIntro": {
+    "message": "Diese Seite verwendet eine Domain mit verdächtigen Unicode-Zeichen, Homoglyphen, unsichtbaren Zeichen oder gemischten Schriftsystemen."
+  },
+  "warningRequestedUrl": {
+    "message": "Angeforderte URL"
+  },
+  "warningDetectedDomain": {
+    "message": "Erkannte Domain"
+  },
+  "warningDecodedDomain": {
+    "message": "Dekodierte Unicode-Domain"
+  },
+  "warningReasons": {
+    "message": "Gründe"
+  },
+  "warningGenericReason": {
+    "message": "Domain als verdächtig markiert."
+  },
+  "warningBack": {
+    "message": "Zurück"
+  },
+  "warningContinue": {
+    "message": "30 Minuten auf eigenes Risiko fortfahren"
+  },
+  "linkBadge": {
+    "message": "Unicode"
+  },
+  "contentLinkWarning": {
+    "message": "Unicode Guard: Link mit verdächtiger Domain"
+  },
+  "contentUrl": {
+    "message": "URL"
+  },
+  "contentDomain": {
+    "message": "Domain"
+  },
+  "contentUnicodeDomain": {
+    "message": "Unicode-Domain"
+  },
+  "contentCharPrefix": {
+    "message": "Unicode Guard"
+  },
+  "optIncludeGreekCharacters": {
+    "message": "Griechische Zeichen in die Erkennung einbeziehen"
+  }
+}

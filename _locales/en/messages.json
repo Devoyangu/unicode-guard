@@ -1,0 +1,104 @@
+{
+  "extensionName": {
+    "message": "Unicode Guard"
+  },
+  "extensionDescription": {
+    "message": "Detects suspicious Unicode in links and text: homoglyphs, invisibles and bidi controls."
+  },
+  "popupTitle": {
+    "message": "Unicode Guard"
+  },
+  "popupAnalyzing": {
+    "message": "Analyzing tab…"
+  },
+  "popupNotAnalyzable": {
+    "message": "This tab is not an analyzable http/https page."
+  },
+  "popupDomainOk": {
+    "message": "Current domain has no suspicious Unicode signals:"
+  },
+  "popupSuspiciousDomain": {
+    "message": "Suspicious domain:"
+  },
+  "popupUnicodeForm": {
+    "message": "Unicode form:"
+  },
+  "optEnabled": {
+    "message": "Enable extension"
+  },
+  "optHighlightPageText": {
+    "message": "Highlight suspicious characters inside pages"
+  },
+  "optHighlightLinks": {
+    "message": "Mark links whose domain is suspicious"
+  },
+  "optHighlightInvisible": {
+    "message": "Turn invisible/bidi characters into visible tags"
+  },
+  "optBlockSuspiciousDomains": {
+    "message": "Block navigation to suspicious domains"
+  },
+  "optStrictMode": {
+    "message": "Strict mode: mark Unicode not included in the safe profile"
+  },
+  "optMarkFormatControlsEverywhere": {
+    "message": "Mark soft invisible controls even when isolated outside domains/emails"
+  },
+  "optShowBadges": {
+    "message": "Add a “Unicode” badge to suspicious links"
+  },
+  "reloadButton": {
+    "message": "Reload tab to apply cleanly"
+  },
+  "allowedChars": {
+    "message": "Normal mode is Latin-focused: Latin letters and common European accents are allowed; suspicious Cyrillic/Greek/Armenian homoglyphs, risky Latin lookalikes in domains, invisible controls and mixed-script domains are flagged. Uncheck Greek only if you regularly use legitimate Greek text or domains."
+  },
+  "warningTitle": {
+    "message": "Domain blocked by Unicode Guard"
+  },
+  "warningIntro": {
+    "message": "This page uses a domain with suspicious Unicode characters, homoglyphs, invisible characters or mixed scripts."
+  },
+  "warningRequestedUrl": {
+    "message": "Requested URL"
+  },
+  "warningDetectedDomain": {
+    "message": "Detected domain"
+  },
+  "warningDecodedDomain": {
+    "message": "Decoded Unicode domain"
+  },
+  "warningReasons": {
+    "message": "Reasons"
+  },
+  "warningGenericReason": {
+    "message": "Domain marked as suspicious."
+  },
+  "warningBack": {
+    "message": "Go back"
+  },
+  "warningContinue": {
+    "message": "Continue for 30 minutes at my own risk"
+  },
+  "linkBadge": {
+    "message": "Unicode"
+  },
+  "contentLinkWarning": {
+    "message": "Unicode Guard: link with suspicious domain"
+  },
+  "contentUrl": {
+    "message": "URL"
+  },
+  "contentDomain": {
+    "message": "Domain"
+  },
+  "contentUnicodeDomain": {
+    "message": "Unicode domain"
+  },
+  "contentCharPrefix": {
+    "message": "Unicode Guard"
+  },
+  "optIncludeGreekCharacters": {
+    "message": "Include Greek characters in detection"
+  }
+}

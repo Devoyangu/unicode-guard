@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Unicode Guard</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 32px;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background: #fff7f7;
+      color: #1f1f1f;
+    }
+    main {
+      max-width: 860px;
+      margin: 0 auto;
+      background: #fff;
+      border: 2px solid #b00020;
+      border-radius: 14px;
+      padding: 24px;
+      box-shadow: 0 10px 30px rgba(0,0,0,.08);
+    }
+    h1 { margin-top: 0; color: #b00020; }
+    code, pre {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      overflow-wrap: anywhere;
+      white-space: pre-wrap;
+    }
+    .box {
+      background: #f6f6f6;
+      padding: 12px;
+      border-radius: 8px;
+      margin: 12px 0;
+    }
+    .issues li { margin: 6px 0; }
+    .buttons { display: flex; gap: 12px; margin-top: 22px; flex-wrap: wrap; }
+    button {
+      padding: 10px 14px;
+      border-radius: 8px;
+      border: 0;
+      cursor: pointer;
+      font-weight: 700;
+    }
+    #back { background: #333; color: #fff; }
+    #continue { background: #b00020; color: #fff; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1 data-i18n="warningTitle">Domain blocked by Unicode Guard</h1>
+    <p data-i18n="warningIntro"></p>
+
+    <h2 data-i18n="warningRequestedUrl"></h2>
+    <div class="box"><code id="url"></code></div>
+
+    <h2 data-i18n="warningDetectedDomain"></h2>
+    <div class="box"><code id="host"></code></div>
+
+    <h2 data-i18n="warningDecodedDomain"></h2>
+    <div class="box"><code id="unicodeHost"></code></div>
+
+    <h2 data-i18n="warningReasons"></h2>
+    <ul id="issues" class="issues"></ul>
+
+    <div class="buttons">
+      <button id="back" data-i18n="warningBack"></button>
+      <button id="continue" data-i18n="warningContinue"></button>
+    </div>
+  </main>
+
+  <script src="unicode_utils.js"></script>
+  <script src="warning.js"></script>
+</body>
+</html>

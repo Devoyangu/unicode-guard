@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Unicode Guard</title>
+  <style>
+    body {
+      width: 360px;
+      margin: 0;
+      padding: 14px;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      color: #161616;
+      background: #fff;
+    }
+    h1 { font-size: 17px; margin: 0 0 8px; }
+    .status {
+      padding: 9px;
+      border-radius: 8px;
+      background: #f1f3f4;
+      margin-bottom: 12px;
+      font-size: 13px;
+      white-space: pre-wrap;
+      overflow-wrap: anywhere;
+    }
+    .bad { background: #ffe2e2; border: 1px solid #b00020; }
+    .ok { background: #e8f5e9; border: 1px solid #2e7d32; }
+    label {
+      display: flex;
+      gap: 8px;
+      align-items: flex-start;
+      margin: 9px 0;
+      font-size: 13px;
+      line-height: 1.25;
+    }
+    input[type="checkbox"] { margin-top: 2px; }
+    .small { color: #555; font-size: 12px; margin-top: 10px; }
+    button {
+      margin-top: 10px;
+      width: 100%;
+      padding: 8px;
+      border: 0;
+      border-radius: 7px;
+      background: #1a73e8;
+      color: white;
+      font-weight: 700;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1 data-i18n="popupTitle">Unicode Guard</h1>
+  <div id="status" class="status" data-i18n="popupAnalyzing">Analyzing tab…</div>
+
+  <label><input id="enabled" type="checkbox"> <span data-i18n="optEnabled"></span></label>
+  <label><input id="highlightPageText" type="checkbox"> <span data-i18n="optHighlightPageText"></span></label>
+  <label><input id="highlightLinks" type="checkbox"> <span data-i18n="optHighlightLinks"></span></label>
+  <label><input id="highlightInvisible" type="checkbox"> <span data-i18n="optHighlightInvisible"></span></label>
+  <label><input id="blockSuspiciousDomains" type="checkbox"> <span data-i18n="optBlockSuspiciousDomains"></span></label>
+  <label><input id="strictMode" type="checkbox"> <span data-i18n="optStrictMode"></span></label>
+  <label><input id="includeGreekCharacters" type="checkbox"> <span data-i18n="optIncludeGreekCharacters"></span></label>
+  <label><input id="markFormatControlsEverywhere" type="checkbox"> <span data-i18n="optMarkFormatControlsEverywhere"></span></label>
+  <label><input id="showBadges" type="checkbox"> <span data-i18n="optShowBadges"></span></label>
+
+  <button id="reload" data-i18n="reloadButton">Reload tab</button>
+  <div class="small" data-i18n="allowedChars"></div>
+
+  <script src="unicode_utils.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

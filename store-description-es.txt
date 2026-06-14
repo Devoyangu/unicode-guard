@@ -1,0 +1,7 @@
+Unicode Guard ayuda a detectar enlaces y dominios visualmente engañosos creados con caracteres Unicode.
+
+Detecta muchos patrones usados en ataques homógrafos: letras cirílicas, griegas o armenias parecidas a letras latinas, caracteres invisibles, controles bidi, dominios con mezcla de escrituras, punycode sospechoso y caracteres latinos raros que pueden simular marcas conocidas.
+
+La extensión funciona localmente en el navegador y no envía datos a servidores externos.
+
+El modo normal está pensado para usuarios de alfabetos latinos. La detección de caracteres griegos viene activada por defecto para mayor seguridad, pero puede desactivarse si se usan textos o dominios griegos legítimos.

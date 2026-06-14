@@ -1,0 +1,104 @@
+{
+  "extensionName": {
+    "message": "Unicode Guard"
+  },
+  "extensionDescription": {
+    "message": "Deteta Unicode suspeito em links e texto: homógrafos, invisíveis e controlos bidi."
+  },
+  "popupTitle": {
+    "message": "Unicode Guard"
+  },
+  "popupAnalyzing": {
+    "message": "A analisar separador…"
+  },
+  "popupNotAnalyzable": {
+    "message": "Este separador não é uma página http/https analisável."
+  },
+  "popupDomainOk": {
+    "message": "O domínio atual não apresenta sinais Unicode suspeitos:"
+  },
+  "popupSuspiciousDomain": {
+    "message": "Domínio suspeito:"
+  },
+  "popupUnicodeForm": {
+    "message": "Forma Unicode:"
+  },
+  "optEnabled": {
+    "message": "Ativar extensão"
+  },
+  "optHighlightPageText": {
+    "message": "Realçar caracteres suspeitos nas páginas"
+  },
+  "optHighlightLinks": {
+    "message": "Marcar ligações cujo domínio seja suspeito"
+  },
+  "optHighlightInvisible": {
+    "message": "Transformar caracteres invisíveis/bidi em etiquetas visíveis"
+  },
+  "optBlockSuspiciousDomains": {
+    "message": "Bloquear navegação para domínios suspeitos"
+  },
+  "optStrictMode": {
+    "message": "Modo estrito: marcar Unicode não incluído no perfil seguro"
+  },
+  "optMarkFormatControlsEverywhere": {
+    "message": "Marcar controlos invisíveis suaves mesmo isolados fora de domínios/e-mails"
+  },
+  "optShowBadges": {
+    "message": "Adicionar emblema “Unicode” a ligações suspeitas"
+  },
+  "reloadButton": {
+    "message": "Recarregar separador para aplicar corretamente"
+  },
+  "allowedChars": {
+    "message": "O modo normal está focado em alfabetos latinos: letras latinas e acentos europeus comuns são permitidos; homógrafos cirílicos/gregos/arménios, caracteres latinos arriscados em domínios, controlos invisíveis e domínios com mistura de escritas são assinalados. Desative o grego apenas se usar regularmente texto ou domínios gregos legítimos."
+  },
+  "warningTitle": {
+    "message": "Domínio bloqueado pelo Unicode Guard"
+  },
+  "warningIntro": {
+    "message": "Esta página usa um domínio com caracteres Unicode suspeitos, homógrafos, caracteres invisíveis ou escritas misturadas."
+  },
+  "warningRequestedUrl": {
+    "message": "URL solicitada"
+  },
+  "warningDetectedDomain": {
+    "message": "Domínio detetado"
+  },
+  "warningDecodedDomain": {
+    "message": "Domínio Unicode descodificado"
+  },
+  "warningReasons": {
+    "message": "Motivos"
+  },
+  "warningGenericReason": {
+    "message": "Domínio marcado como suspeito."
+  },
+  "warningBack": {
+    "message": "Voltar"
+  },
+  "warningContinue": {
+    "message": "Continuar durante 30 minutos por minha conta e risco"
+  },
+  "linkBadge": {
+    "message": "Unicode"
+  },
+  "contentLinkWarning": {
+    "message": "Unicode Guard: ligação com domínio suspeito"
+  },
+  "contentUrl": {
+    "message": "URL"
+  },
+  "contentDomain": {
+    "message": "Domínio"
+  },
+  "contentUnicodeDomain": {
+    "message": "Domínio Unicode"
+  },
+  "contentCharPrefix": {
+    "message": "Unicode Guard"
+  },
+  "optIncludeGreekCharacters": {
+    "message": "Incluir caracteres gregos na deteção"
+  }
+}

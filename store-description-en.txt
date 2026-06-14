@@ -1,0 +1,7 @@
+Unicode Guard helps detect visually deceptive links and domains created with Unicode characters.
+
+It detects many common homoglyph attack patterns: Cyrillic, Greek or Armenian characters that resemble Latin letters, invisible characters, bidi controls, mixed-script domains, suspicious punycode and risky Latin lookalikes that can imitate known brands.
+
+The extension runs locally in the browser and does not send data to external servers.
+
+Normal mode is designed for Latin-alphabet users. Greek detection is enabled by default for safer protection, but it can be disabled by users who regularly use legitimate Greek text or domains.
