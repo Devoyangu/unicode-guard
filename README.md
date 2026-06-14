@@ -75,3 +75,8 @@ Some phishing attacks do not use Unicode. They may rely on spoofed email headers
 Source available for transparency and review.
 
 All rights reserved unless a license is added later.
+## Chrome Web Store
+
+Unicode Guard is available on the Chrome Web Store:
+
+[Install Unicode Guard](https://chromewebstore.google.com/detail/unicode-guard/gpdagfbaiclfhcjlhiokhdgehkomlgka)
